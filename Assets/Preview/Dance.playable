@@ -264,5 +264,5 @@ MonoBehaviour:
   m_Name: AlembicShotAsset
   m_EditorClassIdentifier: 
   streamPlayer:
-    exposedName: c164cfad0e6c9dc4d9480f851f1e1303
+    exposedName: 98c98318ec247754ab98043c0afc5ec3
     defaultValue: {fileID: 0}
