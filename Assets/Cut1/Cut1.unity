@@ -134,7 +134,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 405f9bee5faa1f34ab8464604152dc81, type: 2}
+      objectReference: {fileID: 2100000, guid: 95efe559daebe374cb686051c6684e2f, type: 2}
     - target: {fileID: 1732978368003045579, guid: d2a89134d9305b943abd08a8f20e78f8,
         type: 3}
       propertyPath: m_RayTracingMode
@@ -209,6 +209,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5871164183474853418, guid: d2a89134d9305b943abd08a8f20e78f8,
+        type: 3}
+      propertyPath: startTime
+      value: 54.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5871164183474853418, guid: d2a89134d9305b943abd08a8f20e78f8,
+        type: 3}
+      propertyPath: endTime
+      value: 102.63333
       objectReference: {fileID: 0}
     - target: {fileID: 8861270425421551486, guid: d2a89134d9305b943abd08a8f20e78f8,
         type: 3}
