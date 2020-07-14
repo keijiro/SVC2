@@ -27,9 +27,9 @@ ScriptedImporter:
     importMeshes: 1
     importPoints: 0
   abcStartTime: 54.8
-  abcEndTime: 100.73333333333332
+  abcEndTime: 102.63333333333333
   startTime: 54.8
-  endTime: 100.73332977294922
+  endTime: 102.63333129882812
   importWarning: 
   firstImport: 0
   isHDF5: 0

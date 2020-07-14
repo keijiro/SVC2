@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _hapPlayer: {fileID: 9073899899854944735}
-  _propertyName: _BaseTexture
+  _propertyName: _BaseColorMap
 --- !u!1 &3581828703767575962
 GameObject:
   m_ObjectHideFlags: 0
@@ -468,6 +468,7 @@ MonoBehaviour:
     m_BarrelClipping: 0.25
     m_Anamorphism: 0
   flipYMode: 0
+  xrRendering: 1
   fullscreenPassthrough: 0
   allowDynamicResolution: 0
   customRenderingSettings: 0

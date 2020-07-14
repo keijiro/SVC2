@@ -73,7 +73,7 @@ MonoBehaviour:
   - {fileID: 3406002997127788884}
   m_FixedDuration: 0
   m_EditorSettings:
-    m_Framerate: 30
+    m_Framerate: 60
   m_DurationMode: 0
   m_MarkerTrack: {fileID: -6785371419577504261}
 --- !u!114 &1594007802883773210
@@ -161,8 +161,8 @@ MonoBehaviour:
     m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: 6861758520572716336}
-    m_Duration: 15
-    m_TimeScale: 1
+    m_Duration: 30
+    m_TimeScale: 0.5
     m_ParentTrack: {fileID: 1932638584258869682}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
@@ -241,7 +241,7 @@ MonoBehaviour:
   m_Name: FfmpegRecorderSettings
   m_EditorClassIdentifier: 
   enabled: 1
-  take: 3
+  take: 9
   captureEveryNthFrame: 1
   fileNameGenerator:
     m_Path:
@@ -332,8 +332,8 @@ MonoBehaviour:
     m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: 5199122820790475893}
-    m_Duration: 15
-    m_TimeScale: 1
+    m_Duration: 30
+    m_TimeScale: 0.5
     m_ParentTrack: {fileID: 3406002997127788884}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
@@ -424,7 +424,7 @@ MonoBehaviour:
     m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: -5533959301766141892}
-    m_Duration: 15
+    m_Duration: 30
     m_TimeScale: 1
     m_ParentTrack: {fileID: 4940003050267876151}
     m_EaseInDuration: 0
