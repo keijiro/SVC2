@@ -1,4 +1,4 @@
-#if 1
+#ifdef _WALLFX_TYPE1
 
 #include "Packages/jp.keijiro.noiseshader/Shader/SimplexNoise2D.hlsl"
 
@@ -21,7 +21,9 @@ float3 WallFx(float2 uv)
     return _Color1.rgb * n1 + _Color2.rgb * n2;
 }
 
-#else
+#endif
+
+#ifdef _WALLFX_TYPE2
 
 #include "Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl"
 #include "Packages/com.unity.render-pipelines.core/ShaderLibrary/Color.hlsl"

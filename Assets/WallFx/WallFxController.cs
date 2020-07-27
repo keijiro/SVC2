@@ -8,6 +8,7 @@ sealed class WallFxController : MonoBehaviour, ITimeControl, IPropertyPreview
     #region Editable attributes
 
     [SerializeField] Shader _shader = null;
+    [SerializeField] int _passNumber = 0;
     [SerializeField] RenderTexture _target = null;
 
     [SerializeField] Color _color1 = Color.red;
@@ -77,7 +78,7 @@ sealed class WallFxController : MonoBehaviour, ITimeControl, IPropertyPreview
 
         _material.SetFloat("_LocalTime", _time);
 
-        Graphics.Blit(null, _target, _material, 0);
+        Graphics.Blit(null, _target, _material, _passNumber);
     }
 
     #endregion

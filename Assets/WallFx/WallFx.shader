@@ -8,6 +8,17 @@
             HLSLPROGRAM
             #pragma vertex Vertex
             #pragma fragment Fragment
+            #define _WALLFX_TYPE1
+            #include "Common.hlsl"
+            #include "WallFx.hlsl"
+            ENDHLSL
+        }
+        Pass
+        {
+            HLSLPROGRAM
+            #pragma vertex Vertex
+            #pragma fragment Fragment
+            #define _WALLFX_TYPE2
             #include "Common.hlsl"
             #include "WallFx.hlsl"
             ENDHLSL

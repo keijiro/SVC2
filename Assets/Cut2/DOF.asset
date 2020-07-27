@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-5763120604271506965
+--- !u!114 &-4644810040881994254
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -15,8 +15,8 @@ MonoBehaviour:
   active: 1
   m_AdvancedMode: 0
   quality:
-    m_OverrideState: 0
-    m_Value: 1
+    m_OverrideState: 1
+    m_Value: 2
   focusMode:
     m_OverrideState: 1
     m_Value: 2
@@ -30,7 +30,7 @@ MonoBehaviour:
     min: 0
   nearFocusEnd:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0.1
     min: 0
   farFocusStart:
     m_OverrideState: 1
@@ -79,4 +79,4 @@ MonoBehaviour:
   m_Name: DOF
   m_EditorClassIdentifier: 
   components:
-  - {fileID: -5763120604271506965}
+  - {fileID: -4644810040881994254}

@@ -649,7 +649,7 @@ MonoBehaviour:
   physicalParameters:
     m_Iso: 3000
     m_ShutterSpeed: 0.033333335
-    m_Aperture: 1
+    m_Aperture: 1.8
     m_BladeCount: 5
     m_Curvature: {x: 2, y: 11}
     m_BarrelClipping: 0.25
