@@ -27,7 +27,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.recorder": {
-      "version": "2.1.0-preview.1",
+      "version": "2.2.0-preview.4",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -36,7 +36,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.render-pipelines.core": {
-      "version": "8.1.0",
+      "version": "8.2.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -45,14 +45,14 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.render-pipelines.high-definition": {
-      "version": "8.1.0",
+      "version": "8.2.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.render-pipelines.core": "8.1.0",
-        "com.unity.shadergraph": "8.1.0",
-        "com.unity.visualeffectgraph": "8.1.0",
-        "com.unity.render-pipelines.high-definition-config": "8.1.0"
+        "com.unity.render-pipelines.core": "8.2.0",
+        "com.unity.shadergraph": "8.2.0",
+        "com.unity.visualeffectgraph": "8.2.0",
+        "com.unity.render-pipelines.high-definition-config": "8.2.0"
       },
       "url": "https://packages.unity.com"
     },
@@ -61,7 +61,7 @@
       "depth": 0,
       "source": "local",
       "dependencies": {
-        "com.unity.render-pipelines.core": "8.1.0"
+        "com.unity.render-pipelines.core": "8.2.0"
       }
     },
     "com.unity.searcher": {
@@ -72,11 +72,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.shadergraph": {
-      "version": "8.1.0",
+      "version": "8.2.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.render-pipelines.core": "8.1.0",
+        "com.unity.render-pipelines.core": "8.2.0",
         "com.unity.searcher": "4.0.9"
       },
       "url": "https://packages.unity.com"
@@ -97,22 +97,13 @@
       }
     },
     "com.unity.visualeffectgraph": {
-      "version": "8.1.0",
+      "version": "8.2.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.shadergraph": "8.1.0"
+        "com.unity.shadergraph": "8.2.0"
       },
       "url": "https://packages.unity.com"
-    },
-    "jp.keijiro.abcvfx": {
-      "version": "0.0.4",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.visualeffectgraph": "7.4.1"
-      },
-      "url": "https://registry.npmjs.com"
     },
     "jp.keijiro.ffmpeg-out": {
       "version": "1.0.5",
@@ -121,8 +112,8 @@
       "dependencies": {},
       "url": "https://registry.npmjs.com"
     },
-    "jp.keijiro.kino.post-processing": {
-      "version": "2.1.13",
+    "jp.keijiro.kino.slog3": {
+      "version": "1.0.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -135,6 +126,15 @@
       "depth": 0,
       "source": "registry",
       "dependencies": {},
+      "url": "https://registry.npmjs.com"
+    },
+    "jp.keijiro.klak.math": {
+      "version": "1.0.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.mathematics": "1.0.1"
+      },
       "url": "https://registry.npmjs.com"
     },
     "jp.keijiro.klak.timeline.procedural-motion": {
@@ -155,11 +155,11 @@
       "url": "https://registry.npmjs.com"
     },
     "jp.keijiro.recorder.ffmpeg": {
-      "version": "1.0.0",
+      "version": "1.0.2",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.recorder": "2.1.0-preview.1",
+        "com.unity.recorder": "2.2.0-preview.4",
         "jp.keijiro.ffmpeg-out": "1.0.5"
       },
       "url": "https://registry.npmjs.com"
