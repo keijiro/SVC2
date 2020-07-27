@@ -251,10 +251,10 @@ static class VoxelizationEffect
 
             // Voxel moving out
             var mout = math.smoothstep(0.7f, 1.3f, eff);
-            p.z -= mout * 2;
+            p.x += mout * 2;
 
             // Voxel scaling
-            var vs = 0.03f * math.float2(1 - mout, 1 + mout * 30).xxy;
+            var vs = 0.03f * math.float2(1 - mout, 1 + mout * 30).yxx;
 
             // Voxel vertices
             var vv1 = p + math.float3(-1, -1, -1) * vs;
