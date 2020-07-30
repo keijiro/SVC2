@@ -175,7 +175,7 @@ MonoBehaviour:
   m_PointlightHDType: 0
   m_SpotLightShape: 0
   m_AreaLightShape: 0
-  m_Intensity: 20000
+  m_Intensity: 1000
   m_EnableSpotReflector: 0
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -278,7 +278,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1591.5494
+  m_Intensity: 79.57747
   m_Range: 7
   m_SpotAngle: 45
   m_InnerSpotAngle: 6
@@ -422,7 +422,7 @@ PrefabInstance:
     - target: {fileID: 9073899899408935398, guid: d2a89134d9305b943abd08a8f20e78f8,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.99999785
+      value: 0.99999917
       objectReference: {fileID: 0}
     - target: {fileID: 9073899900036865213, guid: d2a89134d9305b943abd08a8f20e78f8,
         type: 3}
@@ -618,6 +618,120 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &1142418162
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1142418163}
+  - component: {fileID: 1142418165}
+  - component: {fileID: 1142418164}
+  m_Layer: 0
+  m_Name: Light Strip
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1142418163
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1142418162}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1340666596}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1142418164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1142418162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c77d98f3989bdef4188bfe47fbc8d496, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _config:
+    Radius: 0.5
+    Height: 0.8
+    Thickness: 0.006
+    Motion:
+      x: -7.3782
+      y: 3.174
+    Gradient:
+      R:
+        x: 0.5
+        y: 0.56
+        z: 1.63
+        w: 0.61
+      G:
+        x: 0.44
+        y: 0.45
+        z: 1.45
+        w: -0.03
+      B:
+        x: 0.38
+        y: 0.51
+        z: 1.61
+        w: 0
+    GradientScroll: -0.4
+    NoiseFrequency: 0.5
+    NoiseMotion: 0.06
+    NoiseAmplitude: 0.02
+  _vertexCount: 300
+  _timeStep: 0.005
+--- !u!23 &1142418165
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1142418162}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: ddb0d5ae5df78974cbcda66337d021f3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!114 &1174903281 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5871164183474853418, guid: d2a89134d9305b943abd08a8f20e78f8,
@@ -711,6 +825,7 @@ Transform:
   m_Children:
   - {fileID: 1650400869}
   - {fileID: 672423061}
+  - {fileID: 1142418163}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -805,11 +920,14 @@ PlayableDirector:
     value: {fileID: 323970697}
   - key: {fileID: -2050462777273823618, guid: 0e2d6f0b3293fcb4bab52eb7bdb1028d, type: 2}
     value: {fileID: 1340666595}
+  - key: {fileID: -6968922136347604554, guid: 0e2d6f0b3293fcb4bab52eb7bdb1028d, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References:
     - 92bbbf6b32e246049b1105f581439c3e: {fileID: 0}
     - 2f1acf301171b464f88f3ed8afebf183: {fileID: 0}
     - 55393b31436a4764ead1cd9e9a58500c: {fileID: 323970699}
+    - 238fa8d9211ed464a897c0be3dfc3a8c: {fileID: 1142418162}
     - f55d77fa8e19f374498499e950cbf95a: {fileID: 1174903281}
     - 7a6da2771384bff4e92c5a3948e0fa52: {fileID: 1174903281}
     - 26eb08205d7d2934591a16db612c407e: {fileID: 1174903281}
