@@ -18,7 +18,7 @@ float3 WallFx(float2 uv)
     float n1 = abs(snoise(np1)) < width;
     float n2 = abs(snoise(np2)) < width;
 
-    return _Color1.rgb * n1 + _Color2.rgb * n2;
+    return lerp(_Color1.rgb * n1, _Color2.rgb, n2);
 }
 
 #endif
