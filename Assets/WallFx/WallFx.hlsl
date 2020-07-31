@@ -45,3 +45,27 @@ float3 WallFx(float2 uv)
 }
 
 #endif
+
+#ifdef _WALLFX_TYPE3
+
+#include "Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl"
+#include "Packages/com.unity.render-pipelines.core/ShaderLibrary/Color.hlsl"
+
+float3 WallFx(float2 uv)
+{
+    float2 p = (uv - 0.5) * float2(1, 0.5) * 0.7;
+    float t = _LocalTime;
+
+    float r = 0.3 * t;
+    float2x2 rot = float2x2(cos(r), sin(r), -sin(r), cos(r));
+
+    for (int i = 0; i < 8; i++)
+    {
+        p = (p + 0.1 * sin(t * float2(0.84, 0.34))) / dot(p, p + 0.1 * sin(t * float2(0.23, 0.53)));
+        p = mul(rot, p);
+    }
+
+    return saturate(float3(p.x, p.y / 2, p.y));
+}
+
+#endif

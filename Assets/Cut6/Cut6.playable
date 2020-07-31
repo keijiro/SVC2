@@ -76,7 +76,7 @@ MonoBehaviour:
   m_Clips:
   - m_Version: 1
     m_Start: 0
-    m_ClipIn: 0
+    m_ClipIn: 3
     m_Asset: {fileID: 5582284666672551371}
     m_Duration: 11
     m_TimeScale: 1
@@ -656,7 +656,7 @@ MonoBehaviour:
       m_Root: 0
       m_Leaf: Recordings
       m_ForceAssetFolder: 0
-    m_FileName: Cut5
+    m_FileName: Cut6
   preset: 7
   frameRateConversion: 1
   outputFrameRate: 30
