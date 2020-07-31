@@ -12,6 +12,7 @@
     "com.unity.formats.alembic": "2.0.1-preview.1",
     "com.unity.render-pipelines.high-definition": "8.2.0",
     "com.unity.render-pipelines.high-definition-config": "file:../LocalPackages/com.unity.render-pipelines.high-definition-config",
+    "jp.keijiro.abcvfx": "0.0.4",
     "jp.keijiro.kino.slog3": "1.0.0",
     "jp.keijiro.klak.cosinegradient": "1.0.1",
     "jp.keijiro.klak.hap": "0.1.18",

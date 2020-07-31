@@ -105,6 +105,15 @@
       },
       "url": "https://packages.unity.com"
     },
+    "jp.keijiro.abcvfx": {
+      "version": "0.0.4",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.visualeffectgraph": "7.4.1"
+      },
+      "url": "https://registry.npmjs.com"
+    },
     "jp.keijiro.ffmpeg-out": {
       "version": "1.0.5",
       "depth": 1,
