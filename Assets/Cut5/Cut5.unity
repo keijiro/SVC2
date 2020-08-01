@@ -503,7 +503,7 @@ PrefabInstance:
     - target: {fileID: 9073899899408935398, guid: d2a89134d9305b943abd08a8f20e78f8,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.999998
+      value: 0.9999993
       objectReference: {fileID: 0}
     - target: {fileID: 9073899900036865213, guid: d2a89134d9305b943abd08a8f20e78f8,
         type: 3}
@@ -656,6 +656,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a1b20f2fb111d747af103398407b493, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _config:
+    EffectType: 1
+    ScaleParams:
+      x: 0.03
+      y: 0.15
+      z: 40
+    Softness: 0.3
+    Probability: 0.5
   _source: {fileID: 323970702}
   _effector: {fileID: 1650400869}
 --- !u!23 &672423063
