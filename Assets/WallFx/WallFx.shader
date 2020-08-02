@@ -33,5 +33,15 @@
             #include "WallFx.hlsl"
             ENDHLSL
         }
+        Pass
+        {
+            HLSLPROGRAM
+            #pragma vertex Vertex
+            #pragma fragment Fragment
+            #define _WALLFX_TYPE4
+            #include "Common.hlsl"
+            #include "WallFx.hlsl"
+            ENDHLSL
+        }
     }
 }
