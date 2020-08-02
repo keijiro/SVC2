@@ -432,7 +432,7 @@ PrefabInstance:
     - target: {fileID: 9073899899408935398, guid: d2a89134d9305b943abd08a8f20e78f8,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.99999833
+      value: 0.99999875
       objectReference: {fileID: 0}
     - target: {fileID: 9073899900036865213, guid: d2a89134d9305b943abd08a8f20e78f8,
         type: 3}
@@ -1232,8 +1232,10 @@ PlayableDirector:
     - faeef0e97f290974ea74e6b42694d558: {fileID: 323970699}
     - 5097a336ca3cc4f41a52d0bc6274e893: {fileID: 323970699}
     - cf04018886887f44190956489a081298: {fileID: 1536279956}
+    - ccc5d0ac42497ae4197268fd53fea836: {fileID: 1174903281}
     - 18d2ee60c50477746bc2a666534ba933: {fileID: 323970699}
     - c164cfad0e6c9dc4d9480f851f1e1303: {fileID: 1174903281}
+    - 86ae7941836fada4f9c8be347305a092: {fileID: 323970699}
 --- !u!4 &1472491966
 Transform:
   m_ObjectHideFlags: 0
