@@ -50,11 +50,11 @@ static class VoxelizationEffect
             ConstructFace(v5, uv5, v6, uv6, v7, uv7, out _face2a);
             ConstructFace(v6, uv6, v8, uv8, v7, uv7, out _face2b);
 
-            ConstructFace(v1, uv1, v5, uv5, v7, uv7, out _face3a);
-            ConstructFace(v1, uv1, v7, uv7, v3, uv3, out _face3b);
+            ConstructFace(v5, uv5, v7, uv7, v1, uv1, out _face3a);
+            ConstructFace(v3, uv3, v1, uv1, v7, uv7, out _face3b);
 
-            ConstructFace(v6, uv6, v2, uv2, v4, uv4, out _face4a);
-            ConstructFace(v6, uv6, v4, uv4, v8, uv8, out _face4b);
+            ConstructFace(v2, uv2, v4, uv4, v6, uv6, out _face4a);
+            ConstructFace(v8, uv8, v6, uv6, v4, uv4, out _face4b);
 
             ConstructFace(v1, uv1, v2, uv2, v5, uv5, out _face5a);
             ConstructFace(v2, uv2, v6, uv6, v5, uv5, out _face5b);
@@ -70,9 +70,9 @@ static class VoxelizationEffect
         {
             var normal = MathUtil.UnitOrtho(v2 - v1, v3 - v1);
             var tangent = MathUtil.AdHocTangent(normal);
-            face = new Triangle(new Vertex(v1, normal, tangent, 0, uv1),
-                                new Vertex(v2, normal, tangent, 0, uv2),
-                                new Vertex(v3, normal, tangent, 0, uv3));
+            face = new Triangle(new Vertex(v1, normal, tangent, math.float4(1, 0, 0.5f, 0), uv1),
+                                new Vertex(v2, normal, tangent, math.float4(1, 0, 0.5f, 0), uv2),
+                                new Vertex(v3, normal, tangent, math.float4(0, 1, 0.5f, 0), uv3));
         }
     }
 
