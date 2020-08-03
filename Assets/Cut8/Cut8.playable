@@ -2609,8 +2609,8 @@ MonoBehaviour:
   m_Name: BrownianMotion
   m_EditorClassIdentifier: 
   template:
-    positionAmount: {x: 0.02, y: 0.02, z: 0.02}
-    rotationAmount: {x: 0.3, y: 0.3, z: 0.3}
+    positionAmount: {x: 0.01, y: 0.01, z: 0.01}
+    rotationAmount: {x: 0.15, y: 0.15, z: 0.15}
     frequency: 0.2
     octaves: 4
     randomSeed: 88

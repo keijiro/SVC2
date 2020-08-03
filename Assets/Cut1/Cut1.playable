@@ -2035,7 +2035,7 @@ MonoBehaviour:
   m_Name: FfmpegRecorderSettings
   m_EditorClassIdentifier: 
   enabled: 1
-  take: 29
+  take: 30
   captureEveryNthFrame: 1
   fileNameGenerator:
     m_Path:
