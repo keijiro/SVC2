@@ -437,7 +437,7 @@ PrefabInstance:
     - target: {fileID: 9073899899408935398, guid: d2a89134d9305b943abd08a8f20e78f8,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9999998
+      value: 0.99999976
       objectReference: {fileID: 0}
     - target: {fileID: 9073899900036865213, guid: d2a89134d9305b943abd08a8f20e78f8,
         type: 3}
@@ -597,14 +597,14 @@ VisualEffect:
       - m_Value: 0.002
         m_Name: Size
         m_Overridden: 1
-      - m_Value: 400
+      - m_Value: 20
         m_Name: SpawnRate
         m_Overridden: 1
     m_Vector2f:
       m_Array: []
     m_Vector3f:
       m_Array:
-      - m_Value: {x: 4, y: 2, z: 4}
+      - m_Value: {x: 2, y: 2, z: 2}
         m_Name: Extent
         m_Overridden: 1
     m_Vector4f:
@@ -631,7 +631,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 325378309}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.25, y: 1, z: 1.25}
+  m_LocalPosition: {x: 0.3, y: 1, z: 0.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1147,7 +1147,7 @@ VisualEffect:
   m_Asset: {fileID: 8926484042661614526, guid: 7f4f006a707c13848a5e2a5c32159fd1, type: 3}
   m_InitialEventName: OnPlay
   m_InitialEventNameOverriden: 0
-  m_StartSeed: 1592762110
+  m_StartSeed: 1876104585
   m_ResetSeedOnPlay: 0
   m_PropertySheet:
     m_Float:
@@ -1155,14 +1155,14 @@ VisualEffect:
       - m_Value: 0.002
         m_Name: Size
         m_Overridden: 1
-      - m_Value: 400
+      - m_Value: 20
         m_Name: SpawnRate
         m_Overridden: 1
     m_Vector2f:
       m_Array: []
     m_Vector3f:
       m_Array:
-      - m_Value: {x: 4, y: 3, z: 4}
+      - m_Value: {x: 2, y: 3, z: 2}
         m_Name: Extent
         m_Overridden: 1
     m_Vector4f:
@@ -1189,7 +1189,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 867345724}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.3, y: 1.5, z: 1.3}
+  m_LocalPosition: {x: -0.3, y: 1.5, z: 0.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

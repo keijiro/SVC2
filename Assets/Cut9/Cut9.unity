@@ -1750,7 +1750,7 @@ VisualEffect:
   m_Asset: {fileID: 8926484042661614526, guid: 7f4f006a707c13848a5e2a5c32159fd1, type: 3}
   m_InitialEventName: OnPlay
   m_InitialEventNameOverriden: 0
-  m_StartSeed: 1592762110
+  m_StartSeed: 765586022
   m_ResetSeedOnPlay: 0
   m_PropertySheet:
     m_Float:
@@ -1758,14 +1758,14 @@ VisualEffect:
       - m_Value: 0.002
         m_Name: Size
         m_Overridden: 1
-      - m_Value: 2000
+      - m_Value: 150
         m_Name: SpawnRate
         m_Overridden: 1
     m_Vector2f:
       m_Array: []
     m_Vector3f:
       m_Array:
-      - m_Value: {x: 6, y: 2, z: 2}
+      - m_Value: {x: 6, y: 2, z: 2.3}
         m_Name: Extent
         m_Overridden: 1
     m_Vector4f:
